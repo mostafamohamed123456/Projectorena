@@ -1,0 +1,91 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:Arial, sans-serif;
+    box-sizing:border-box;
+    list-style-type:none;
+    text-decoration:none;
+    text-transform:capitalize;
+}
+body{
+    background:#ABD1DC;
+}
+.set-profile-data{
+    width:400px;
+    height:500px;
+    border-radius:4px;
+    text-align:center;
+    background:#C6A477;
+    padding:20px;
+    margin:60px auto;
+}
+.set-profile-data .profile-data-header{
+    color:#EEE;
+    font-family:cursive;
+    letter-spacing:2px;
+    padding:10px;
+    font-weight:bold;
+    font-size:23px;
+}
+.set-profile-data img{
+    width:150px;
+    height:150px;
+    display:block;
+    margin:10px auto;
+    border-radius:50%
+}
+.set-profile-data input[type="file"]{
+    display:none;
+}
+.set-profile-data .user-name{
+    color:#EEE;
+    font-family:cursive;
+    letter-spacing:2px;
+    padding:10px;
+    font-weight:bold;
+    font-size:23px;
+}
+.set-profile-data #choose-image{
+    background:#0d98c7;
+    padding:8px;
+    border-radius:4px;
+    color:#FFF;
+    cursor:pointer;
+    outline:none;
+    border:0px;
+    font-size:18px;
+    display:block;
+    margin:10px auto;
+}
+.set-profile-data input[type="text"]{
+    padding:6px;
+    background:#C6A477;
+    font-style:italic;
+    font-size:20px;
+    border:0px;
+    border-bottom:1px solid #DDD;
+    display:block;
+    margin:25px auto;
+    outline:none;
+    color:#EEE;
+    caret-color: #eee;
+    font-weight:bolder
+}
+.set-profile-data input[type="text"]::placeholder{
+    color:#EEE;
+}
+.set-profile-data #submit{
+    background:#0d98c7;
+    padding:8px;
+    border-radius:4px;
+    color:#FFF;
+    cursor:pointer;
+    outline:none;
+    border:0px;
+    font-size:18px;
+    display:block;
+    margin:10px auto;
+    width:100px;
+    letter-spacing:2px;
+    font-family:cursive;
+}

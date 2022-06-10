@@ -1,0 +1,170 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:Arial, sans-serif;
+    box-sizing:border-box;
+    list-style-type:none;
+    text-decoration:none;
+    text-transform:capitalize;
+}
+body{
+    background:#ABD1DC;
+}
+.sign-up-login-parent{
+    margin: 50px auto;
+}
+.sign-up-login-parent .signup-header, .sign-up-login-parent .login-header{
+    color:#EEE;
+    font-weight:bold;
+    font-size:24px;
+    letter-spacing:4px;
+    font-family:cursive;
+    margin: 25px 0;
+}
+.sign-up-login-parent img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    display:block;
+    margin: 25px auto;
+}
+.sign-up-login-parent .sign-up-section, .sign-up-login-parent .login-section{
+    border-radius:4px;
+    padding:20px;
+    margin:10px auto;
+    text-align:center;
+    max-width:400px;
+    background:#C6A477
+}
+.sign-up-login-parent .sign-up-section form, .sign-up-login-parent .login-section form{
+    display:flex;
+    flex-direction:column;
+}
+.sign-up-login-parent .sign-up-section form div, .sign-up-login-parent .login-section form div{
+    margin: 10px 0;
+}
+.sign-up-login-parent .sign-up-section form div input, 
+.sign-up-login-parent .login-section form div input{
+    padding:4px;
+    outline:none;
+    font-size:17px;
+    border-radius:4px;
+    background:#ABD1DC;
+    border:0px;
+    width:200px;
+    float: right;
+}
+.sign-up-login-parent .sign-up-section form div label, 
+.sign-up-login-parent .login-section form div label{
+    margin: 0 10px;
+    padding:4px;
+    float: left;
+    color:#EEE;
+    font-weight:bold;
+    font-family:cursive, Arial, sans-serif;
+}
+.sign-up-login-parent .sign-up-section form div input:focus, 
+.sign-up-login-parent .login-section form div input:focus{
+    border-bottom:1px solid #000;
+}
+.sign-up-login-parent .sign-up-section form div input[type="radio"]{
+    width: 30px;
+}
+.sign-up-login-parent .sign-up-section form div select{
+    padding:4px;
+    outline:none;
+    font-size:17px;
+    border-radius:4px;
+    background:#ABD1DC;
+    border:0px;
+    width:205px;
+    float: right;
+    cursor:pointer
+}
+.sign-up-login-parent .sign-up-section form div select #first-option{
+    font-style:italic;
+    color:#333;
+}
+.sign-up-login-parent .sign-up-section form .btns, .sign-up-login-parent .login-section form .btns{
+    display:flex;
+    flex-direction: column;
+}
+.sign-up-login-parent .sign-up-section form .btns input[type="submit"], 
+.sign-up-login-parent .login-section form input[type="submit"]{
+    padding:10px;
+    font-size:17px;
+    border-radius:4px;
+    cursor:pointer;
+    outline:none;
+    color:#EEE;
+    display: block;
+    margin: 20px auto;
+    width:150px;
+    font-weight:bold;
+    font-family:cursive;
+    letter-spacing:3px;
+    background:#ABD1DC;
+    border:0px;
+}
+.sign-up-login-parent .sign-up-section form .btns input[type="submit"]:focus{
+    border-bottom:0px;
+}
+.sign-up-login-parent .sign-up-section form .btns #login-btn, .sign-up-login-parent .login-section form .btns #sign-up-btn{
+    background:#C6A477;
+    color:rgb(0, 60, 255);
+    text-decoration:underline;
+    border:0px;
+    cursor:pointer;
+    font-size:16px;
+    letter-spacing:2px;
+}
+.sign-up-login-parent .sign-up-section form div input::placeholder, 
+.sign-up-login-parent .login-section form div input::placeholder{
+    font-style:italic;
+}
+
+.welcome-back-message{
+    position:absolute;
+    text-align:center;
+    width: 100%;
+    height:113%;
+    background:rgba(255, 255, 255, 0.848);
+    color:#000;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;;
+}
+.welcome-back-message p{
+    margin: 300px auto;
+    color:rgb(60, 52, 52);
+    font-weight:bold;
+    font-size:50px;
+    font-family:cursive;
+}
+.err-matching{
+    color:#F00;
+    font-size:14px;
+    display:none;
+}
+.err-matching.show-err-matching{
+    display:block
+}
+.login-section{
+    display:none;
+}
+.login-section.show-login-section{
+    display:block;
+}
+
+.sign-up-section.hide-sign-up-section{
+    display:none;
+}
+
+
+.welcome-back-message.show-welcome-message{
+    display:block;
+}
+.welcome-back-message.hide-welcome-message{
+    display:none;
+}

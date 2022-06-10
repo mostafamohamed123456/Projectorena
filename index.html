@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Projectorena</title>
+        <meta charset="UTF-8">
+        <link href="css/indexStyle.css" rel="stylesheet">
+        <link rel="icon" href="images/project-icon.png">
+        <script src="https://kit.fontawesome.com/91adc17bd4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="sign-up-login-parent">
+            <!--Sign up form-->
+            <div class="sign-up-section">
+                <header class="signup-header">signup</header>
+                <img src="images/user.png" alt="user-image" title="sign-up-img">
+                <form>
+                    <div>
+                        <label>firstname</label>
+                        <input type="text" name="first-name" placeholder="enter firstname">
+                        
+                    </div>
+                    <div>
+                        <label>lastname</label>
+                        <input type="text" name="last-name" placeholder="enter lastname">
+                        
+                    </div>
+                    <div>
+                        <label>password</label>
+                        <input type="password" name="password" placeholder="enter password">
+                        
+                    </div>
+                    <div>
+                        <label>re-enter password</label>
+                        <input type="password" name="re-password" placeholder="re-enter password">
+                        <p class="err-matching">this password doesn't match</p>
+                    </div>
+                    <div>
+                        <label>email</label>
+                        <input type="email" name="email" placeholder="projectorena@example.com">         
+                    </div>
+                    <div>
+                        <label>gender</label>
+                        <select>
+                            <option id="first-option" value="first-option">Choose Your Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>         
+                    </div>
+                    <div>
+                        <label>birthdate</label>
+                        <input type="date" name="birthdate">
+                    </div>
+                    <div class="btns">
+                        <input type="submit" value="submit" id="signUpSubmit">
+                        <button id="login-btn" type="button">already have account ?</button>
+                    </div>
+                    
+                </form>
+            </div>
+            
+            <!--Login form-->
+            <div class="login-section">
+                <header class="login-header">login</header>
+                <img src="images/user.png" alt="user-image" title="login-up-img">
+                <form action="">
+                    <div>
+                        <label>username</label>
+                        <input type="text" name="username" placeholder="enter username">
+                    </div>
+                    <div>
+                        <label>password</label>
+                        <input type="password" name="password" placeholder="enter password">
+                    </div>
+                    <div class="btns">
+                        <input type="submit" value="submit">
+                        <button id="sign-up-btn" type="button">create new account !</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--welcome back party-->
+        <div class="welcome-back-message">
+            <p></p>
+        </div>
+        <script src="js/indexJavascript.js"></script>
+    </body>
+</html>
